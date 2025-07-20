@@ -1,5 +1,5 @@
 
-# 📝 ARWI: Arabic Essay Scoring Dataset and Pipeline
+# 📝 ARWI: Arabic Essay Scoring Dataset
 
 This repository contains data and utilities developed for the Arabic Read, Write and Improve project, aimed at studying and evaluating the effect of prompts, error generation, and CEFR-level classification in Arabic Automated Essay Scoring (AES). The dataset supports experiments in writing proficiency assessment, prompt–essay relevance detection, and synthetic data augmentation for NLP tasks.
 
