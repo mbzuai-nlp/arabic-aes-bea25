@@ -241,7 +241,7 @@ def main():
     cefr_level_file = os.path.join(data_path, "arwi_cefr_levels.csv")
     error_distribution_file = os.path.join(error_path, "error_distribution_CEFR.csv")
     error_prompts_file = os.path.join(error_path, "FULL_error_prompts.json")
-    output_path = os.path.join(data_path, "arwi_gpt_error_essays2.csv")
+    output_path = os.path.join(data_path, "arwi_gpt_error_essays.csv")
 
     # === Step 1: Load Essays and CEFR Levels ===
     essay_df = utilities.read_essays(original_essay_file, cefr_level_file, essay_col="Original_Essay")
