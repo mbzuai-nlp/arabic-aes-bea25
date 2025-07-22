@@ -94,6 +94,20 @@ All essays across the dataset use a standardised `Document_ID` format:
 A utility function to parse `Document_ID` is provided in `Code/utilities.py`
 
 
+## ✨ Error Injection using GPT
+
+This Code\Errorinjectino_GPT.py presents the **first approach** for generating realistic learner-like errors in Arabic essays using OpenAI's GPT model. 
+#### 🚀 How to Run This GPT-Based Error Injection Code
+
+- Ensure that Python version 3.9 or higher is installed on your system, and install all required packages.
+
+- Insert your OpenAI API key directly into the script where indicated.
+
+- Make sure all necessary data files are available in the `Data/` and `Data/Errors_annotation/` folders.
+
+- Be cautious when running the script, as it will append output to the existing file `arwi_gpt_error_essays.csv`. 
+
+
 ## 📄 Citation
 
 If you use this dataset or code in your research, please cite:
