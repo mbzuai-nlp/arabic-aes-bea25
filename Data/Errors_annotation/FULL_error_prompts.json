@@ -1,0 +1,76 @@
+{
+    "DELETE": [
+        "Insertion Error for example: Add extra, unnecessary word in the essay to make it feel repetitive.",
+        "Insertion Error for example: Add extra preposition where it doesn't belong"
+    ],
+    "SPLIT": [
+        "Merging Error for example: Join commonly separated word incorrectly, particularly prepositions or conjunctions.",
+        "Merging Error for example: Merge preposition with the words following them, like 'في التعليم' becoming 'فيالتعليم'.",
+        "Merging Error for example: Combine negation letter with the following word, such as making 'لا زال' become 'لازال'"
+    ],
+    "MERGE": [
+        "Splitting Error for exampple: Split compound words or prepositions from nouns to create minor spacing errors.",
+        "Splitting Error for exampple: split the conjunction 'و' from the following word, turning such as'والطالب' into 'و الطالب'.",
+        "Splitting Error for exampple: split words that should be combined, such as 'فلها' to 'ف لها'"
+
+    ],
+    "REPLACE_M": [
+        "Morphological Error for example: Apply incorrect word inflection by using an inappropriate form, such as using 'معروف' instead of 'عارف'.",
+        "Morphological Error for example: Change the word form to introduce inflection errors, making it seem more colloquial or less formal.",
+        "Morphological Error for example: Introduce verb tense errors by using the wrong tense form, such as 'تفرحني' instead of 'أفرحتني'.",
+        "Morphological Error for example: Switch between verb tenses incorrectly to create common mistakes, like using past tense instead of present.",
+        "Morphological Error for example: Introduce wrong type of plural like 'مدرسات' instead of 'مدارس' "
+    ],
+    "REPLACE_O": [
+        "Orthographical Error for example : Use incorrect  Ya and Alif-Maqsura forms at the end of words, replacing 'ى' with 'ي' or 'ي' with 'ى', such as using 'على' instead of 'علي'.",
+        "Orthographical Error for example : Replace Alif-Maqsura with regular Alif in words, especially at the end of a word, like 'علا' instead of 'على'.",
+        "Orthographical Error for example : Swap the order of two adjacent characters in words to create orthographic errors, e.g., 'تبرینا' instead of 'تربينا'.",
+        "Orthographical Error for example : Add extra, incorrect characters to words, such as 'يدوم' becoming 'يعدوم' with an additional character.",
+        "Orthographical Error for example : Insert extra letters in words to create typos, like adding 'و' or 'ي' in incorrect places.",
+        "Orthographical Error for example : Introduce a common error by lengthening a vowel sound in words, for instance, changing 'نقيم' to 'نقيمو'.",
+        "Orthographical Error for example : Introduce Hamza errors by omitting or placing it incorrectly, e.g., 'اكثر' instead of 'أكثر'.",
+        "Orthographical Error for example : Remove necessary characters from words to create a common error, such as 'سالين' instead of 'سائلين'.",
+        "Orthographical Error for example : Confuse Nun with Tanween by adding 'ن' to words that need Tanween, like using 'ثوبن' instead of 'ثوبٌ'.",
+        "Orthographical Error for example : Replace certain letters with another character ones, such as 'مصلنا' with 'وصلنا'.",
+        "Orthographical Error for example : Substitute characters that sound or look similar, like 'س' with 'ص' or 'ق' with 'ف'.",
+        "Orthographical Error for example : Shorten long vowels by removing extra letters, e.g., 'أوقت' instead of 'أوقات'.",
+        "Orthographical Error for example : Confuse 'ة' with 'ه' at the end of words, creating common spelling errors, like 'مشاركة' becoming 'مشاركه'.",
+        "Orthographical Error for example : Omit or misuse Alif Fariqa, such as writing 'وكانو' instead of 'وكانوا'.",
+        "Orthographical Error for example : Confuse Alif Fariqa with regular Alif, especially at the end of plural words, like using 'لاعبوا' instead of 'لاعبو'."
+    ],
+    "REPLACE_X": [
+        "Syntax Error for example: Introduce case errors by using the incorrect case ending, such as using 'رائع' instead of 'رائعاً'.",
+        "Syntax Error for example: Apply incorrect case markings to create common case errors in Arabic grammar.",
+        "Syntax Error for example: Omit or add definite articles incorrectly to alter definiteness، like using 'السن' instead of 'سن' or vice versa",
+        "Syntax Error for example: Introduce gender agreement errors by using the wrong gender form, such as 'الغربية' instead of 'الغربي'.",
+        "Syntax Error for example: Omit necessary words to create missing word errors, such as removing 'على' from a sentence.",
+        "Syntax Error for example: Leave out essential words, creating gaps in meaning or grammatical structure.",
+        "Syntax Error for example: Cause number agreement errors by using mismatched singular/plural forms, like 'أفكاري' instead of 'فكرتي'.",
+        "Syntax Error for example: Add unnecessary words to create redundancy, like inserting 'على' where it is not needed.",
+        "Syntax Error for example: Use incorrect verb forms so that verbs don’t agree with the subject, e.g., 'الطالبتان تدرس' instead of 'الطالبتان تدرسان'.",
+        "Syntax Error for example: Introduce noun forms errors, such as switching singular، dual form and plural"
+    ],
+    "REPLACE_S": [
+        "Semantic Error for example: Create conjunction errors by using incorrect conjunctions, like 'سبحان' instead of 'فسبحان'.",
+        "Semantic Error for example: Substitute or omit conjunctions incorrectly to create linkage issues.",
+        "Semantic Error for example: Make word selection errors by choosing inappropriate words, such as using 'عن' instead of 'من'.",
+        "Semantic Error for example: Use incorrect word or pronoun or prepositions choices to disrupt meaning or precision in sentences."
+    ],
+    "REPLACE_P": [
+        "Punctuation Error for example: punctuation confusion errors by using incorrect punctuation marks, such as 'قال.' instead of 'قال:'.",
+        "Punctuation Error for example: Create missing punctuation errors by omitting necessary punctuation, like 'العظيم' instead of 'العظيم،'.",
+        "Punctuation Error for example: Add unnecessary punctuation to create redundancy, such as using 'العام،' instead of 'العام'."
+    ],
+    "REPLACE_M+REPLACE_O": [
+        "Morphological and Orthographical Error for example: Introduce tense or inflection error with spelling mistakes in the text.",
+        "Morphological and Orthographical Error for example: Use incorrect verb forms and misspell words to make the sentences grammatically incorrect.",
+        "Morphological and Orthographical Error for example: Introduce incorrect verb tenses or inflections with spelling mistakes, like 'شارب' instead of 'شربت'.",
+        "Morphological and Orthographical Error for example: Use wrong singular/plural forms along with spelling mistakes, like ' كوتب رائع' instead of 'كتاب رائع'.",
+        "Morphological and Orthographical Error for example: Introduce Combined error that have both morphological error with spelling mistake across the text." ],
+    "REPLACE_O+REPLACE_X": [
+        "Orthographical and Syntax Error for example: spelling errors while also altering case or gender agreement.",
+        "Orthographical and Syntax Error for example: Add Arabic orthographic mistakes with syntax issues to complicate the structure.",
+        "Orthographical and Syntax Error for example: Use incorrect word forms (singular/plural or masculine/feminine) and add spelling mistakes.",
+        "Orthographical and Syntax Error for example: Combine grammar errors (agreement issues) with spelling errors throughout the text."
+    ]
+}
