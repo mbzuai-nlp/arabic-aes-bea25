@@ -112,12 +112,30 @@ This Code\Errorinjectino_GPT.py presents the **first approach** for generating r
 
 If you use this dataset or code in your research, please cite:
 
+
+
 ```bibtex
+@inproceedings{qwaider-etal-2025-enhancing,
+    title = "Enhancing {A}rabic Automated Essay Scoring with Synthetic Data and Error Injection",
+    author = "Qwaider, Chatrine  and
+      Alhafni, Bashar  and
+      Chirkunov, Kirill  and
+      Habash, Nizar  and
+      Briscoe, Ted",
+    booktitle = "Proceedings of the 20th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.bea-1.40/",
+    doi = "10.18653/v1/2025.bea-1.40",
+    pages = "549--563",
+    }
+
+
 @article{qwaider2025enhancing,
   title={Enhancing arabic automated essay scoring with synthetic data and error injection},
   author={Qwaider, Chatrine and Alhafni, Bashar and Chirkunov, Kirill and Habash, Nizar and Briscoe, Ted},
   journal={arXiv preprint arXiv:2503.17739},
   year={2025}
 }
-
-
